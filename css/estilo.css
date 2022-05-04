@@ -7,10 +7,14 @@ html{
 	font-family: 'Oswald', sans-serif;
 }
 
+
 body {
 	background-color: #C4D7FF   ;
 	margin:0;
 }
+
+
+
 
 .lateral{
 	background-color: #043C8A;
@@ -87,7 +91,7 @@ body {
 
 
  	.proyectos {
- 		margin-left: 350px;
+ 	margin-left: 350px;
 	padding: 1em;
 	display: table;
 
@@ -104,8 +108,21 @@ body {
  	}
 
  	#links {
-	color: #000000;
+	background-color:#1CDE18 ;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: .01em;
+	font-family:sans-serif;
+
+
 }
+
+	.cuerpo{
+	width: 100%;
+	}
+
 
 .proyecto_titulo{
 	color:#C40808;
@@ -115,3 +132,55 @@ body {
 .proyecto_descripcion{
 	color: grey;
 }
+
+
+.view-proyecto{
+    margin-left: 350px;
+    padding: 1em;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+	
+	.informacion{
+		position: relative;
+	}
+	
+	.lateral{
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	
+	.proyectos{
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	
+	.cuerpo{
+		width: 100%;
+	}
+
+	.informacion{
+		position: relative;
+	}
+
+	.perfil_nombres{
+		position: relative;
+	}
+	
+	.proyecto{
+		width: 100%;
+		display: block;
+	}
+
+	.proyectos{
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
